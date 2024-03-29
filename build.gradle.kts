@@ -45,6 +45,7 @@ dependencies {
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation("org.mockito:mockito-core")
     testImplementation("org.assertj:assertj-core:3.25.3")
+    testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
 
