@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.pawga
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [app-name, data, data-r2dbc, flyway, graalvm, gradle, http-client-test, jdbc-hikari, junit, kotlin, kotlin-application, ksp, logback, micronaut-aot, micronaut-build, micronaut-http-validation, mockito, netty-server, openapi, postgres, r2dbc, readme, serialization-jackson, shade, static-resources, swagger-ui, test-resources, validation, yaml, yaml-build]

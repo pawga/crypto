@@ -1,0 +1,36 @@
+micronaut:
+  ssl:
+    enabled: true
+  server:
+    ssl:
+      enabled: true
+      key-store:
+        path: classpath:ssl/keystore.p12
+        password: ZSE4zse4
+        type: PKCS12
+    max-request-size: '100MB'
+    multipart:
+      max-file-size: '100MB'
+  application:
+    name: crypto
+  router:
+    static-resources:
+      swagger:
+        paths: classpath:META-INF/swagger
+        mapping: /swagger/**
+      swagger-ui:
+        paths: classpath:META-INF/swagger/views/swagger-ui
+        mapping: /swagger-ui/**
+#datasources:
+#  default:
+#    driver-class-name: org.postgresql.Driver
+#    db-type: postgres
+#r2dbc:
+#  datasources:
+#    default:
+#      dialect: POSTGRES
+#      db-type: postgres
+#flyway:
+#  datasources:
+#    default:
+#      enabled: true
